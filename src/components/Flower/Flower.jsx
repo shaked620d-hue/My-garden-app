@@ -1,9 +1,13 @@
-import react from "react";
+import React from "react";
 
 function Flower() {
-    const flowerName = "שושן צחור";
-    const petalsColor = "Pink";
-    const centerPetalColor = "Yellow";
+  const flowerName="שושן צחור" 
+   const     petalsColor="Pink" 
+    const    centerPetalColor="Yellow" 
+
+    const handleClick = () => {
+        alert(`אני פרח מסוג ${flowerName}!`);
+    }
 
 
     // הגדרות CSS לעלה כותרת בודד (בצורת דמעה/לב מעוגל)
@@ -20,7 +24,16 @@ function Flower() {
     };
 
     return (
-        <div style={{ textAlign: 'center', margin: '60px auto',position: "relative" }}>
+            <div
+                onClick={handleClick}
+                style={{ 
+                textAlign: 'center', 
+                margin: '60px auto', 
+                position: "relative", 
+                cursor: "pointer" // הופך את סמן העכבר ליד לחיצה
+            }}
+                >
+
             { /* כותרת עם שם הפרח וצבע הכתב לפי העלה המרכזי */}
             <h2 style={{ color: centerPetalColor, marginBottom: '40px',position: "relative",zIndex: 2 }}>{flowerName}</h2>
 

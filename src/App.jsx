@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* הצגת הכותרת והפרח */}
       <Header />
       <Flower />
-      {/* Other components and content can go here */}
     </div>
   );
 }
