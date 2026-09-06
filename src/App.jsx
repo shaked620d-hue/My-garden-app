@@ -12,8 +12,22 @@ function App() {
         petalsColor="Pink"
         centerPetalColor="Yellow"
       />
+      {/*שם וצבע עלי כותרת*/}
+      <Flower
+        flowerName="כלנית"
+        petalsColor="Red"
+      />
+      {/*שם וצבע עלה מרכזי*/}
+      <Flower
+        flowerName="חמניה"
+        centerPetalColor="Brown"
+      />
+      <Flower
+        flowerName="חבצלת" />
+
     </div>
   );
 }
+
 
 export default App;

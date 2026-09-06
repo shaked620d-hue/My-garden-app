@@ -36,7 +36,7 @@ function Flower({ flowerName, petalsColor, centerPetalColor }) {
                 >
 
             { /* כותרת עם שם הפרח וצבע הכתב לפי העלה המרכזי */}
-            <h2 style={{ color: centerPetalColor, marginBottom: '40px',position: "relative",zIndex: 2 }}>{flowerName}</h2>
+            <h2 style={{ color: centerPetalColor, marginBottom: '10px',position: "relative",zIndex: 2 }}>{flowerName}</h2>
 
             { /* קונטיינר מעוצב לפרח המורכב מעלי כותרת ומרכז */}
             <div
