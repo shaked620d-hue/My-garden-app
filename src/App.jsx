@@ -7,7 +7,11 @@ function App() {
     <div className="App">
       {/* הצגת הכותרת והפרח */}
       <Header />
-      <Flower />
+      <Flower
+        flowerName="שושן צחור"
+        petalsColor="Pink"
+        centerPetalColor="Yellow"
+      />
     </div>
   );
 }

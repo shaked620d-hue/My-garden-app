@@ -1,9 +1,7 @@
 import React from "react";
 
-function Flower() {
-  const flowerName="שושן צחור" 
-   const     petalsColor="Pink" 
-    const    centerPetalColor="Yellow" 
+function Flower({ flowerName, petalsColor, centerPetalColor }) {
+  
 
     const handleClick = () => {
         alert(`אני פרח מסוג ${flowerName}!`);
