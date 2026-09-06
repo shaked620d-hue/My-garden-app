@@ -2,6 +2,9 @@ import React from "react";
 
 function Flower({ flowerName, petalsColor, centerPetalColor }) {
   
+    //השמשתי בתנאי מקוצר 
+    petalsColor = petalsColor || "purple"; // צבע ברירת מחדל לעלי הכותרת
+    centerPetalColor = centerPetalColor || "Yellow"; // צבע ברירת מחדל לעלה המרכזי
 
     const handleClick = () => {
         alert(`אני פרח מסוג ${flowerName}!`);
